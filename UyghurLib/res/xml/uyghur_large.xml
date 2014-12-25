@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/key_height"
+	android:horizontalGap="0.0px" android:verticalGap="0.0px"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<Row>
+		<Key android:codes="33" android:keyEdgeFlags="left"
+			android:keyLabel="!" />
+		<Key android:codes="64" android:keyLabel="\u0040" />
+		<Key android:codes="35" android:keyLabel="#" />
+		<Key android:codes="36" android:keyLabel="$" />
+		<Key android:codes="37" android:keyLabel="%" />
+		<Key android:codes="94" android:keyLabel="^" />
+		<Key android:codes="38" android:keyLabel="\u0026" />
+		<Key android:codes="42" android:keyLabel="*" />
+		<Key android:codes="40" android:keyLabel="(" />
+		<Key android:codes="41" android:keyEdgeFlags="right"
+			android:keyLabel=")" />
+	</Row>
+	<Row>
+		<Key android:horizontalGap="4.999995%p" android:codes="45"
+			android:keyEdgeFlags="left" android:keyLabel="-" />
+		<Key android:codes="34" android:keyLabel="\u0022" />
+		<Key android:codes="1688" android:keyLabel="ژ" />
+		<Key android:codes="1601" android:keyLabel="ف" />
+		<Key android:codes="1711" android:keyLabel="گ" />
+		<Key android:codes="1582" android:keyLabel="خ" />
+		<Key android:codes="1580" android:keyLabel="ج" />
+		<Key android:codes="1734" android:keyLabel="ۆ" />
+		<Key android:codes="1574" android:keyEdgeFlags="right"
+			android:keyLabel="ئ" />
+	</Row>
+	<Row>
+		<Key android:keyWidth="14.999998%p" android:codes="-1"
+			android:keyEdgeFlags="left" android:isModifier="true"
+			android:isSticky="true" android:keyIcon="@drawable/uy_keyboard_shift" />
+		<Key android:codes="8230" android:keyLabel="…" />
+		<Key android:codes="187" android:keyLabel="»" />
+		<Key android:codes="171" android:keyLabel="«"  />
+		<Key android:codes="1567" android:keyLabel="؟" />
+		<Key android:codes="1563" android:keyLabel="؛" />
+		<Key android:codes="46" android:keyLabel="." />
+		<Key android:codes="1548" android:keyLabel="،" />
+		<Key android:keyWidth="14.999998%p" android:codes="-5"
+			android:keyEdgeFlags="right" android:isRepeatable="true"
+			android:keyIcon="@drawable/uy_keyboard_delete" />
+	</Row>
+	<Row android:rowEdgeFlags="bottom">
+		<Key android:keyWidth="20%p" android:codes="-2"
+			android:keyLabel="Ug" />
+		
+		<Key android:keyWidth="60%p" android:codes="32"
+			android:isRepeatable="true" />
+		
+		<Key android:keyWidth="20%p" android:codes="-3"
+			android:keyEdgeFlags="right" android:keyIcon="@drawable/uy_keyboard_return" />
+	</Row>
+</Keyboard>

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fff" >
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="50dp"
+         android:background="#333"
+         
+		>
+        <com.almas.view.UySyllabelTextView 
+         
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="ئۇيغۇرچە"
+           	android:layout_centerInParent="true"/>
+    </RelativeLayout>
+	<ListView 
+	    android:layout_margin="10dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:id="@+id/listView"
+	    android:divider="@null"
+	    android:dividerHeight="0dp"
+	    android:listSelector="@null"
+	    >
+	    
+	</ListView>
+
+	<com.almas.keyboard.AlmasIcon
+	    android:id="@+id/almasIcon1"
+	    android:layout_width="30dp"
+	    android:layout_height="22dp"
+	 />
+
+</LinearLayout>

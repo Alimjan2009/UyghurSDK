@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fff" >
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="50dp"
+         android:background="#333"
+		>
+		<ImageButton 
+		    android:layout_width="50dp" 
+		    android:layout_height="50dp"
+		    android:src="@drawable/web_before_disable"
+		    android:background="@drawable/nav_menu_xml"
+		    android:layout_alignParentLeft="true"
+		    android:layout_centerVertical="true"
+		    android:onClick="onRetrunClicked"
+		    android:layout_marginLeft="0dp"/>
+        <com.almas.view.UySyllabelTextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="كىرگۈزگۈچ"
+           	android:layout_centerInParent="true"/>
+      
+        <ImageButton 
+            android:layout_width="50dp" 
+            android:layout_height="50dp"
+		    android:src="@drawable/image_setting"
+		    android:background="@drawable/nav_menu_xml"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:layout_marginLeft="0dp"
+		    android:onClick="onSettingClicked"
+		    android:id="@+id/setting"
+		    
+		    />
+    </RelativeLayout>
+	<FrameLayout 
+	    android:id="@+id/frameLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    >
+	    
+	</FrameLayout>
+</LinearLayout>
