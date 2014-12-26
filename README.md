@@ -16,7 +16,7 @@
 
 ----------
 ## كەسمە رەسىملىرى ##
-
+![](http://dev.almas.biz/images/c1.png)![](http://dev.almas.biz/images/c2.png)
 ----------
 ## سىناش ئۇسۇلى:‫ ##
 ‫1.	Activity نىڭ xml ھۆججىتىگە
@@ -102,3 +102,4 @@
 ## توربىتىمىز:‫ ##
 [توربىتىمىز](http://dev.almas.biz/index.html)
 http://dev.almas.biz/
+Email:822161777@qq.com
