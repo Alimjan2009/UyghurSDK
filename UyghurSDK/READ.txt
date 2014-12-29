@@ -1,0 +1,19 @@
+1.TextView
+	1) TextSize
+	2) TextColor
+	3) TextFont
+	4) Selawenqa
+	5) 英文
+	
+2.EditTextView
+	1) TextSize
+	2) TextColor
+	3) TextFont
+	4) 复制，粘贴
+3.输入法
+	1)搜索文字可修改
+	2)空格键的处理
+4.Button
+5.UySyllabelDrawer
+6.UyBaseAndEx
+7.UySyllable
