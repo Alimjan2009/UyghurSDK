@@ -1,0 +1,61 @@
+# view res/layout/activity_main.xml #generated:33
+-keep class com.almas.keyboard.AlmasIcon { <init>(...); }
+
+# view res/layout/activity_user_input.xml #generated:27
+# view res/layout/fragment_edit_text.xml #generated:5
+-keep class com.almas.keyboard.UyghurKeyboardView { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.almas.uyghursdk.EditTextActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class com.almas.uyghursdk.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.almas.uyghursdk.TextViewerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.almas.uyghursdk.UserInputActivity { <init>(...); }
+
+# view res/layout/fragment_edit_text_controller.xml #generated:107
+# view res/layout/fragment_edit_text_controller.xml #generated:129
+# view res/layout/fragment_edit_text_controller.xml #generated:152
+# view res/layout/fragment_edit_text_controller.xml #generated:175
+# view res/layout/fragment_edit_text_controller.xml #generated:191
+# view res/layout/fragment_text_viewer_controller.xml #generated:146
+# view res/layout/fragment_text_viewer_controller.xml #generated:162
+-keep class com.almas.view.UyButton { <init>(...); }
+
+# view res/layout/activity_user_input.xml #generated:51
+# view res/layout/fragment_edit_text.xml #generated:28
+-keep class com.almas.view.UyEditText { <init>(...); }
+
+# view res/layout/activity_edit_text.xml #generated:19
+# view res/layout/activity_main.xml #generated:11
+# view res/layout/activity_text_viewer.xml #generated:17
+# view res/layout/activity_user_input.xml #generated:19
+# view res/layout/fragment_edit_text_controller.xml #generated:144
+# view res/layout/fragment_edit_text_controller.xml #generated:167
+# view res/layout/fragment_edit_text_controller.xml #generated:20
+# view res/layout/fragment_edit_text_controller.xml #generated:49
+# view res/layout/fragment_edit_text_controller.xml #generated:63
+# view res/layout/fragment_text_viewer.xml #generated:18
+# view res/layout/fragment_text_viewer_controller.xml #generated:104
+# view res/layout/fragment_text_viewer_controller.xml #generated:20
+# view res/layout/fragment_text_viewer_controller.xml #generated:49
+# view res/layout/fragment_text_viewer_controller.xml #generated:63
+# view res/layout/list_item_main.xml #generated:8
+-keep class com.almas.view.UySyllabelTextView { <init>(...); }
+
+# onClick res/layout/activity_edit_text.xml #generated:10
+# onClick res/layout/activity_text_viewer.xml #generated:10
+# onClick res/layout/activity_user_input.xml #generated:10
+-keepclassmembers class * { *** onRetrunClicked(...); }
+
+# onClick res/layout/activity_text_viewer.xml #generated:36
+-keepclassmembers class * { *** onSelavenClicked(...); }
+
+# onClick res/layout/activity_edit_text.xml #generated:27
+# onClick res/layout/activity_text_viewer.xml #generated:25
+-keepclassmembers class * { *** onSettingClicked(...); }
+

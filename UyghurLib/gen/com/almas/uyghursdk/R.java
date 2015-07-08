@@ -123,7 +123,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.almas.uyghursdk:firstLineIndent
         */
-        public static final int UyghurTextView_firstLineIndent = 1;
+        public static int UyghurTextView_firstLineIndent = 1;
         /**
           <p>This symbol is the offset where the {@link com.almas.uyghursdk.R.attr#firstLineIndentWidth}
           attribute's value can be found in the {@link #UyghurTextView} array.
@@ -139,7 +139,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.almas.uyghursdk:firstLineIndentWidth
         */
-        public static final int UyghurTextView_firstLineIndentWidth = 2;
+        public static int UyghurTextView_firstLineIndentWidth = 2;
         /**
           <p>This symbol is the offset where the {@link com.almas.uyghursdk.R.attr#fontName}
           attribute's value can be found in the {@link #UyghurTextView} array.
@@ -153,7 +153,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.almas.uyghursdk:fontName
         */
-        public static final int UyghurTextView_fontName = 0;
+        public static int UyghurTextView_fontName = 0;
         /**
           <p>This symbol is the offset where the {@link com.almas.uyghursdk.R.attr#lineSpacingExtra}
           attribute's value can be found in the {@link #UyghurTextView} array.
@@ -169,7 +169,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.almas.uyghursdk:lineSpacingExtra
         */
-        public static final int UyghurTextView_lineSpacingExtra = 3;
+        public static int UyghurTextView_lineSpacingExtra = 3;
         /**
           <p>This symbol is the offset where the {@link com.almas.uyghursdk.R.attr#lineSpacingMultiplier}
           attribute's value can be found in the {@link #UyghurTextView} array.
@@ -183,6 +183,6 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.almas.uyghursdk:lineSpacingMultiplier
         */
-        public static final int UyghurTextView_lineSpacingMultiplier = 4;
+        public static int UyghurTextView_lineSpacingMultiplier = 4;
     };
 }

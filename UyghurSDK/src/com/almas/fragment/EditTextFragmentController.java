@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.View.OnClickListener;
-import android.webkit.WebView.FindListener;
+
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.CheckBox;
