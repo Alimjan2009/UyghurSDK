@@ -99,6 +99,29 @@
 
 
 ----------
+## 混淆: ##
+```
+
+-keep class com.almas.** {
+   *;
+}
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+-keep class **.R$* {   
+
+*;   
+}
+
+-keepattributes InnerClasses
+
+-keep class **.R
+-keep class **.R$* {
+    <fields>;
+}
+```
+
+----------
 ## توربىتىمىز:‫ ##
 [توربىتىمىز](http://dev.almas.biz/index.html)
 http://dev.almas.biz/
