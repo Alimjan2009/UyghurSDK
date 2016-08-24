@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UyghurTextView">
+        <attr name="fontName" format="string"/>
+        <attr name="firstLineIndent" format="boolean"/>
+        <attr name="firstLineIndentWidth" format="dimension"/>
+        <attr name="lineSpacingExtra" format="dimension"/>
+        <attr name="lineSpacingMultiplier" format="float"/>
+    </declare-styleable>
+</resources>
