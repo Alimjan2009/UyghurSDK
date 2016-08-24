@@ -15,6 +15,23 @@
 
 
 ----------
+## Anroid Studio Gradle 快速集成 ##
+
+```
+
+repositories {
+    maven {
+        url 'https://dl.bintray.com/alimjan/uyghur'
+    }
+}
+dependencies {
+    compile 'com.almas.uyghur:uyghurlib:1.0.1'
+}
+```
+
+----------
+
+----------
 ## كەسمە رەسىملىرى ##
 ![](http://dev.almas.biz/images/c1.png)![](http://dev.almas.biz/images/c2.png)
 ----------
@@ -29,13 +46,13 @@
 
     <com.almas.keyboard.UyghurKeyboardView
         android:paddingTop="5dp"
-        
+
         android:id="@+id/uyghurKeyboardView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:keyBackground="@drawable/uy_keyboard_key" 
+        android:keyBackground="@drawable/uy_keyboard_key"
         android:background="@drawable/uy_keyboard_background" />
     <ScrollView 	
         android:background="@drawable/uy_bg_edittext"
@@ -82,13 +99,13 @@
 		 keyboardUtil = new KeyboardUtil(this,uyEditText,keyboardView);
 		 uyEditText.setKeyboardUtil(keyboardUtil);
 		 uyEditText.setOnKeyboardClickedListener(new OnKeyboardClickedListener() {
-			
+
 			@Override
 			public void onTextChanged() {
 				// TODO Auto-generated method stub
-				
+
 			}
-			
+
 			@Override
 			public void onEnterClicked() {
 				// TODO Auto-generated method stub
