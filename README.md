@@ -18,12 +18,6 @@
 ## Anroid Studio Gradle 快速集成 ##
 
 ```
-
-repositories {
-    maven {
-        url 'https://dl.bintray.com/alimjan/uyghur'
-    }
-}
 dependencies {
     compile 'com.almas.uyghur:uyghurlib:1.0.1'
 }
